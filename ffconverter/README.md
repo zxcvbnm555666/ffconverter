@@ -1,17 +1,11 @@
-# ffconverter
+# FF Converter
 
-A new Flutter project.
+本目录为 Flutter 应用源码。完整项目说明、功能亮点与下载/编译指南请看仓库根目录：
 
-## Getting Started
+**[→ 查看项目 README](../README.md)**
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run -d windows
+flutter build windows
+```
