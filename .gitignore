@@ -1,0 +1,49 @@
+# Build artifacts (Flutter / MSVC)
+**/build/
+**/*.tlog
+**/*.obj
+**/*.recipe
+**/*.lastbuildstate
+**/*.vcxproj
+**/*.vcxproj.filters
+**/*.vcxproj.user
+**/*.sln
+**/Debug/
+**/Release/
+**/x64/
+**/arm64/
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+**/*.dill
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependencies.version
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Secrets / local config
+.env
+*.local
+secrets.yaml
+key.properties
+**/google-services.json
+**/GoogleService-Info.plist
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated / temp
+tmp/
+temp/
